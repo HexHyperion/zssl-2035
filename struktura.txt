@@ -1,0 +1,170 @@
+Legenda:
+n - numer paragrafu w słowniku
+1, 2, 3... - numer wpisywany do programu
+
+(n) WIELKIE LITERY == wydarzenie kluczowe i/lub miejsce zbiegu rozgałęzień
+    1 - (n) mała litera == pomniejsza opcja
+        1 - (n) mała litera == opcja podrzędna
+    2 - (n) WIELKIE LITERY == przejście do kolejnego wydarzenia kluczowego
+    3 - (n) wydarzenie -> (n) inne wydarzenie == przejście bez opcji
+
+
+UWAGA!! Bardzo proszę spróbować zagrać chociaż raz bez spoilerów, bardzo się napracowałem nad plot-twistami ;)
+
+
+(0) WPROWADZENIE / zarzuty
+    1 - (10) mam imię
+        1 - (31) nie wiedziałem co robię
+            1 - (46) skazujecie niewinnych ludzi
+                1 - (1) OPÓR
+                2 - (2) GROŹBA
+                3 - (3) ZAMKNIĘCIE
+            2 - (1) OPÓR
+            3 - (2) GROŹBA
+            4 - (3) ZAMKNIĘCIE
+        2 - (32) ktoś mnie wrobił
+            1 - (47) jesteście szpiegami
+                1 - (1) OPÓR
+                2 - (2) GROŹBA
+                3 - (3) ZAMKNIĘCIE
+            2 - (48) nic nie zrobili
+                1 - (1) OPÓR
+                2 - (2) GROŹBA
+                3 - (3) ZAMKNIĘCIE
+        3 - (13) to była twarz prezydenta
+            1 - (1) OPÓR
+            2 - (2) GROŹBA
+            3 - (3) ZAMKNIĘCIE
+
+    2 - (11) co z tego?
+        1 - (12) o czyich zasadach mowa?
+            1 - (34) brak sieci to nie anarcha
+                1 - (1) OPÓR
+                2 - (2) GROŹBA
+                3 - (3) ZAMKNIĘCIE
+            2 - (33) żałuję że nie zniszczyłem więcej
+                1 - (1) OPÓR
+                2 - (2) GROŹBA
+                3 - (3) ZAMKNIĘCIE
+        2 - (33) żałuję że nie zniszczyłem więcej
+            1 - (1) OPÓR
+            2 - (2) GROŹBA
+            3 - (3) ZAMKNIĘCIE
+
+    3 - (12) o czyich zasadach mowa?
+        1 - (34) brak sieci to nie anarcha
+            1 - (1) OPÓR
+            2 - (2) GROŹBA
+            3 - (3) ZAMKNIĘCIE
+        2 - (33) żałuję że nie zniszczyłem więcej
+            1 - (1) OPÓR
+            2 - (2) GROŹBA
+            3 - (3) ZAMKNIĘCIE
+
+    4 - (13) to była twarz prezydenta
+        1 - (1) OPÓR
+        2 - (2) GROŹBA
+        3 - (3) ZAMKNIĘCIE
+
+
+(1) OPÓR / ucieczka z sali
+    1 - (14) drzwi -> (4) PĘTLA
+
+    2 - (15) okno
+        1 - (35) skocz -> KONIEC
+        2 - (36) nie skacz -> (4) PĘTLA
+
+    3 - (16) wyłącz światło
+        1 - (37) pali się
+            1 - (49) poręcz -> (4) PĘTLA
+            2 - (50) tłum -> (7) RATUNEK
+            3 - (51) winda -> (7) RATUNEK
+        2 - (38) jestem niewinny -> (4) PĘTLA
+        3 - (39) bez słowa -> (4) PĘTLA
+
+    4 - (17) weź pistolet
+        1,2,3,4 - (40) próba strzału -> (4) PĘTLA
+
+
+(2) GROŹBA -> (3) ZAMKNIĘCIE
+
+(3) ZAMKNIĘCIE -> (5) WIĘZIENIE
+
+(4) NIESKOŃCZONA PĘTLA
+    1 - (18) próba ucieczki -> (4) PĘTLA
+    2 - (19) brak oporu -> (4) PĘTLA
+
+(5) WIĘZIENIE
+    1 - (20) kabelki -> (6) WYJŚCIE
+    2 - (21) nigdy nie jest za późno -> (6) WYJŚCIE
+
+(6) WYJŚCIE
+    1 - (22) kim jesteś? -> (8) BAZA
+    2 - (23) piękny wóz -> (8) BAZA
+
+(7) RATUNEK
+    1 - (24) kim jesteś? -> (8) BAZA
+    2 - (25) skąd umiesz jeździć? -> (8) BAZA
+    3 - (26) piękny wóz
+        1 - (25) skąd umiesz jeździć? -> (8) BAZA
+        2 - (8) BAZA
+
+
+(8) BAZA
+    1 - (27) wchodzę
+        1 - (41) ile mam czasu?
+            1 - (52) rozmawiajmy o tym co pewne -> (9) MISJA
+            2 - (43) to samobójstwo -> KONIEC
+        2 - (42) skąd wiecie? -> (9) MISJA
+
+    2 - (28) nie ma mowy
+        1 - (27) wchodzę
+            1 - (41) ile mam czasu?
+                1 - (52) rozmawiajmy o tym co pewne -> (9) MISJA
+                2 - (43) to samobójstwo -> KONIEC
+            2 - (42) skąd wiecie? -> (9) MISJA
+        2 - (43) to samobójstwo -> KONIEC
+
+
+(9) Misja
+    1 - (29) zaczynamy
+        1 - (44) wyłącz alarm
+            1 - (53) wyłącz czujniki
+                1 - (55) ustaw minę -> KONIEC
+                2 - (56) idź dalej
+                    1 - (57) ukryj się
+                        1 - (59) wyłącz działka
+                            1 - (61) alt+f4 -> (4) PĘTLA
+                            2 - (62) ctrl+c -> KONIEC ("wygrana")
+                            3 - (63) ctrl+w -> (4) PĘTLA
+                            4 - (64) wydaj agenta -> KONIEC
+
+                        2 - (60) idź dalej -> (59) wyłącz działka
+                            1 - (61) alt+f4 -> (4) PĘTLA
+                            2 - (62) ctrl+c -> KONIEC ("wygrana")
+                            3 - (63) ctrl+w -> (4) PĘTLA
+                            4 - (64) wydaj agenta -> KONIEC
+                    2 - (58) uciekaj -> KONIEC
+            2 - (54) przekradnę się -> KONIEC
+        2 - (45) poradzę sobie -> KONIEC
+
+    2 - (30) nie ma szans -> (29) zaczynamy
+        1 - (44) wyłącz alarm
+            1 - (53) wyłącz czujniki
+                1 - (55) ustaw minę -> KONIEC
+                2 - (56) idź dalej
+                    1 - (57) ukryj się
+                        1 - (59) wyłącz działka
+                            1 - (61) alt+f4 -> (4) PĘTLA
+                            2 - (62) ctrl+c -> KONIEC ("wygrana")
+                            3 - (63) ctrl+w -> (4) PĘTLA
+                            4 - (64) wydaj agenta -> KONIEC
+                            
+                        2 - (60) idź dalej -> (59) wyłącz działka
+                            1 - (61) alt+f4 -> (4) PĘTLA
+                            2 - (62) ctrl+c -> KONIEC ("wygrana")
+                            3 - (63) ctrl+w -> (4) PĘTLA
+                            4 - (64) wydaj agenta -> KONIEC
+                    2 - (58) uciekaj -> KONIEC
+            2 - (54) przekradnę się -> KONIEC
+        2 - (45) poradzę sobie -> KONIEC
