@@ -2,14 +2,76 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Cascadia Mono", monospace;
+    line-height: 1.5;
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Cascadia Code", monospace;
     background-color: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    filter: blur(0.5px);
+}
+
+button {
+    font-size: 14px;
+    font-family: inherit;
+    background-color: black;
+    color: white;
+    border: 0px solid transparent;
+    display: block;
+    transition: color 0.2s ease;
+}
+button:hover {
+    color: red;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease;
+}
+a:hover {
+    color: red;
+}
+
+#game {
+    border: 2px solid white;
+    padding: 10px;
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+#story {
+    padding: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+    height: 100%;
+    overflow: auto;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#choices button {
+    width: 100%;
+    text-align: left;
+}
+
+.old-story {
+    color: #444;
+    display: block;
 }
