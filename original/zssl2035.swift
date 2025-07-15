@@ -86,7 +86,7 @@ let pytania: [Int: String] = [
     """,
     6: """
     [Ochroniarze prowadzą cię do tych samych metalowych drzwi, którymi wszedłeś tu prawie dekadę temu. Jazda na górę dłuży ci się niemiłosiernie, a serce podchodzi ci do gardła. W końcu drzwi się otwierają, oślepia cię ciepłe, pomarańczowe światło zachodzącego słońca, tak bardzo przyjazne w porównaniu do więziennych, zimnych świetlówek. Chwilę zachwytu przerywają ci strażnicy, wyrzucając cię za bramę tak agresywnie, że o mało co się nie przewracasz. Przed sobą widzisz kompletną pustkę, tylko w oddali widać światła i neony Nowego Krakowa.]
-    
+
                           .+.##-
                        *#.-     +-
                        *+- O--O #-
@@ -101,7 +101,7 @@ let pytania: [Int: String] = [
           %%%###@@#  ++ #:. ::%%%%%%%%%%%%%%%%%%%@#.% ++% #@******%%
                   *#%%%%.:. ::                    *# %%%*
                          :*:::
-    
+
     [Rozglądasz się dookoła, dostrzegając stojące na poboczu czarne auto i opartego o nie mężczyznę, ubranego w równie czarną kurtkę i okulary. Wygląda na to, że czeka na ciebie.]
     1. Kim jesteś?
     2. Piękny wóz. Firebird, dobrze widzę?
@@ -393,7 +393,7 @@ let pytania: [Int: String] = [
     """,
     32: """
     - Jestem niewinny! Nie wiem nawet o jakim urządzeniu mówicie! Ktoś mnie wrobił!
-    - Proszę o pokazanie nagrania z miejsca zbrodni. 
+    - Proszę o pokazanie nagrania z miejsca zbrodni.
     [Na nagraniu widać, jak uderzasz w ekran z plakatem prezydenta Stügla i hasłem "Opanujmy świat z podwójną precyzją! Zgłoś akces do naszej partii już teraz!"]
     - Jakość nagrania pozwala na jednoznaczne zidentyfikowanie sprawcy jako M-8922186, co też uczynił nasz zautomatyzowany system. Proszę o zanotowanie, że MCHE już wcześniej oznaczyła oskarżonego jako prawdopodobnego przestępcę na podstawie rozmów i korespondencji z obywatelami M-7353249 i F-9914082. Potencjalni anarchiści zostali już zatrzymani przez odpowiednie służby.
     1. To niezgodne z prawem!
@@ -486,7 +486,7 @@ let pytania: [Int: String] = [
     [Po dokładnie trzydziestu trzech sekundach metalowe drzwi ponownie się otwierają, ukazując rozległe, zaciemnione pomieszczenie, wypełnione migającymi diodami serwerów, komputerów, terminali i wszelkiego rodzaju innych urządzeń, których nawet nie potrafisz nazwać.]
     - << Osiemnaście minut, cztery sekundy... trzy... dwa... >>
     - Cicho bądź!
-    [Powolnym krokiem wychodzisz z windy, rozglądając się dookoła. Dostrzegasz przynajmniej pięć kamer, złowrogo błyszczących czerwonymi diodami.] 
+    [Powolnym krokiem wychodzisz z windy, rozglądając się dookoła. Dostrzegasz przynajmniej pięć kamer, złowrogo błyszczących czerwonymi diodami.]
     - Jesteście pewni, że mnie nie widzą?
     - << Jeszcze żyjesz, więc tak, nie widzą cię. Według moich skanów powinieneś skręcić w drugi prawy rząd, iść prosto przez sto metrów, a następnie skręcić w lewo, gdzie znajdziesz schody. >>
     - Brzmi prosto... Jakieś niespodzianki?
@@ -531,7 +531,7 @@ let pytania: [Int: String] = [
     - << UWAGA, ZBIEG KIERUJE SIĘ W WASZą STRONĘ! ZATRZYMAĆ WSZYSTKICH UCIEKAJąCYCH! >>
     - Hej, ty! Zatrzymaj się!
     [Nie zatrzymujesz się. Jeden z agentów strzela do ciebie z jakiegoś urządzenia. Tracisz przytomność, upadasz na podłogę.]
-    
+
     ***
     """,
     50: """
@@ -867,5 +867,5 @@ while stanGry {
             }
         }
     }
-    
+
 }
